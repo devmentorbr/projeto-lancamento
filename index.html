@@ -1,26 +1,98 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <!-- 
-    Arquivo inicial desafio Página Lançamento Prédio Mentor
+    Arquivo inicial desafio Pagina Lançamento Prédio Mentor
     > www.devmentor.com.br
   -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Max Corretora - DevMentor BR">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-  <!-- Carregando a fonte roboto para usar no projeto -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <!-- Carregando a fonte Poppins para usar no projeto -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <title>Prédio Acqua - DevMentor BR</title>
   <link rel="stylesheet" href="style.css">
+  <title>Prédio Acqua - DevMentor BR</title>
 </head>
 <body>
-  
-  <h1>Prédio Acqua</h1>
 
-  <script type="text/javascript" src=script.js></script>
+  <section class="page">
+    <div class="countdown-col col">
+          <div class="time middle">
+            <span>
+              <div id="d"></div>
+              Dias
+            </span>
+            <span>
+              <div id="h"></div>
+              Horas
+            </span>
+            <span>
+              <div id="m"></div>
+              Minutos
+            </span>
+            <span>
+              <div id="s"></div>
+              Segundos
+            </span>
+          </div>
+        </div>
+
+        <div class="newsletter-col col">
+
+          <div class="newsletter middle">
+            <h1>Prédio Acqua</h1>
+            <h4>Receba novidades sobre nosso lançamento.</h4>
+            <span>
+              Morar contemporâneo para pessoas com estilo de vida dinâmico e que buscam praticidade no seu dia a dia. Lazer, esporte, trabalho e contato com a natureza em um só lugar. 
+            </span>
+            <form>
+              <input type="text" placeholder="Digite seu email...">
+              <input class="newsletter-btn" type="button" value="Quero saber mais">
+            </form>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="galery-area"> 
+        <h1>Andamento do projeto</h1>
+        <p>Veja como está o andamento da construção.</p>
+
+        <div id="obra" class="portfolio-imgs">
+  
+          <a href="#">
+            <img src="./assets/predio1.jpg" alt="Imagem demonstrativa 1" />
+          </a>
+          
+          <a href="#">
+            <img src="./assets/predio2.jpg" alt="Imagem demonstrativa 2" />
+          </a>
+          
+          <a href="#">
+            <img src="./assets/predio3.jpg" alt="Imagem demonstrativa 3" />
+          </a>
+          
+          <a href="#">
+            <img src="./assets/predio4.png" alt="Imagem demonstrativa 4" />
+          </a>
+          
+          <a href="#">
+            <img src="./assets/predio5.png" alt="Imagem demonstrativa 5" />
+
+          </a>
+          
+          <a href="#">
+            <img src="./assets/predio6.png" alt="Imagem demonstrativa 6" />
+          </a>
+        </div>     
+      </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
