@@ -1,5 +1,5 @@
 // Data desejada
-let comingdate = new Date("Jan 25, 2023 00:00:00");
+let comingdate = new Date("Jan 25, 2024 00:00:00");
 
 // Pegar cada item pelo ID
 let d = document.getElementById('d');
